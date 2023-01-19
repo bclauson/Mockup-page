@@ -1,9 +1,146 @@
 
+  
+  @font-face {
+    font-family: 'baseNinSC';
+    src: url("../resources/homework/BaseNinSC.ttf");
+  }
 body {
+  font-family: 'baseNinSC';
   min-width: 200px;
   max-width: 1600px;
   background-color: #f5f2df;
+  margin: 0;
 }
+
+
+.header {
+  background-color: #3e3935;
+  height: 220px;
+  width: 100%;
+}
+.header img {
+  width: 33%;
+  z-index: 99;
+  top: 0%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+
+}
+
+.header .line {
+  top: 15%;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  height: 2px;
+  background-color: #f5f2df;
+}
+
+.header .socials {
+  color: #f5f2df;
+    position: relative;
+    top: 54%;
+    left: 75%;
+    width: 25%;
+    font-size: 200%;
+
+}
+
+.header .bottom-line {
+  background-color: #f5f2df;
+  top: 63%;
+  z-index: 1;
+  height: 5px;
+  position: relative;
+}
+
+.navbar-left ul, .navbar-right ul {
+  list-style: none;
+/*     background-color: #3e3935; */
+  color: #f5f2df;  
+}
+.navbar-left {
+  width: 40%;
+  text-align: center;
+  position: relative;
+}
+/* .navbar-left li {
+  margin-left: 10%;
+  margin-right: 10%;
+
+} */
+
+.navbar-right {
+  position: relative;
+  width: 40%;
+  left: 20%;
+  text-align: center;
+}
+
+
+a {
+      color: #f5f2df;
+  text-decoration: none;
+}
+.header ul li {
+  display: inline-block;
+  position: relative;
+}
+.nav {
+  position: relative;
+  top: 56%;
+  display: flex;
+}
+
+.nav ul li a {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: center;
+}
+.navbar-right .dropdown li a{
+  padding-left: 0px;
+
+}
+
+.nav .dropdown li{
+  display: block;
+
+  width: 100%;
+}
+.nav .dropdown li a{
+  border-top: solid;
+
+}
+.nav .dropdown a {
+  width: 100%;
+  background-color: #3e3935;
+}
+
+.nav ul li ul.dropdown {
+  width: 100%;
+
+  background-color: #3e3935;
+  position: absolute;
+  z-index: 999;
+  padding-left: 0;
+  display: none;
+  
+}
+.nav li a:hover {
+  background-color: #f5f2df;
+  color: #3e3935;
+}
+
+.nav ul li:hover ul.dropdown {
+  display: block;
+}
+
+
 .main {
   width: 100%;
   height: 100%;
@@ -20,7 +157,8 @@ body {
   padding-left: 70%; 
   padding-top: 25%;
   padding-bottom: 2.5%;
-  color: rgb(168, 139, 41);
+  color: #f5f2df;
+  margin-top: 0.5%;
 }
 
 .header1 a {
@@ -64,6 +202,7 @@ body {
 .content2 {
   width: 100%;
   display: flex;
+  color: #f5f2df;
 }
 .item1 {
   margin-top: 1.5%;
